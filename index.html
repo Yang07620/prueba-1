@@ -10,7 +10,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
+    <nav class="nav-display-desktop">
+        <div class="nav-content-desktop">
+            <ul>
+                <li>
+                    <div class="logo">
+                        <img src="img/Logo.png" alt="">
+                        <p>Pandem</p>
+                    </div>
+                </li>
+                <li>
+                    <p>Docs</p>
+                </li>
+                <li>
+                    <p>Pricing</p>
+                </li>
+                <li>
+                    <p>Status</p>
+                </li>
+                <li>
+                    <p>FAQs</p>
+                </li>
+                <li>
+                    <p>Contact Us</p>
+                </li>
+            </ul>
+            
+            <div class="login">
+                <a href="">Login</a>
+                <button>Sign Up</button>
+                <img src="img/Frame.png" alt="">
+            </div>
+        </div>
+    </nav>
+
+    <nav class="nav-display-movil">
         <div class="logo">
             <img src="img/Logo.png" alt="">
             <p>Pandem</p>
@@ -30,11 +64,13 @@
 
         <button><p>Get started</p><img src="img/Vector.png" alt=""></button>
 
-        <img src="img/hero_image 1.png" alt="">
+        <img src="img/hero_image 1.png" alt="" id="movil-img">
+        <img src="img/hero_image 1-desk.png" alt="" id="desk-img">
 
         <div class="content1-3">
             <div class="content1">
-                <h2>Immediate Solutions, Less Stress</h2>
+                <h2 id="conten1-h2-movil">Immediate Solutions, Less Stress</h2>
+                <h2 id="conten1-h2-desk">Quick solutions, less stress</h2>
                 <ul class="ul-content">
                     <li class="li-content1">
                         <img src="img/Feature icon.png" alt="" id="img-list">
